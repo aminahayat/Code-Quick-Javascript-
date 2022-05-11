@@ -1,6 +1,6 @@
 /*  CSS vars */
 :root {
-    --purple: #50308c;
+    --purple: #31d111;
     --btn-green: var(--purple);
 }
 
@@ -8,7 +8,7 @@
 *,::after,::before{box-sizing:border-box}*{margin:0}body,html{height:100%}body{line-height:1.5;-webkit-font-smoothing:antialiased}canvas,img,picture,svg,video{display:block;max-width:100%}button,input,select,textarea{font:inherit}h1,h2,h3,h4,h5,h6,p{overflow-wrap:break-word}#__next,#root{isolation:isolate}
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 main {
@@ -46,7 +46,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: var(--purple);
-    color: #ffffff;
+    color: #221f1f;
     padding: 1.5em;
 }
 
@@ -83,7 +83,7 @@ header {
     background-color: var(--purple);
     border-radius: 0.315em;
     width: 100%;
-    color: #ffffff;
+    color: #312d2d;
 }
 
 .questions-list label {
@@ -93,7 +93,7 @@ header {
 }
 
 .questions-list input:is(:checked) + span {
-    background: cyan;
+    background: rgb(255, 34, 0);
 }
 
 .phase-enter-initials input {
