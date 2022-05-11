@@ -26,9 +26,9 @@ section {
     align-items: flex-start;
     padding: 3.125em 2.05em;
     gap: 0.66em;
-    border-radius: 1em;
+    border-radius: 2em;
     border: 2px solid #ccc;
-    max-width: 768px;
+    max-width: 800;
     margin: 0 auto;
 }
 
